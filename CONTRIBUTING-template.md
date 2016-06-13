@@ -74,6 +74,7 @@ How you write this is up to you, but some things you may want to include:
 * If you use anything other than GitHub to manage issues (ex. JIRA or Trac), let them know which tools they’ll need to contribute
 
 >For something that is bigger than a one or two line fix:
+
 1. Create your own fork of the code
 2. Do the changes in your fork
 3. If you like the change and think the project could use it:
@@ -119,6 +120,7 @@ In order to determine whether you are dealing with a security issue, ask yoursel
 You can even include a template so people can just copy-paste (again, less work for you).
 
 > When filing an issue, make sure to answer these five questions:
+
 1. What version of Go are you using (go version)?
 2. What operating system and processor architecture are you using?
 3. What did you do?
