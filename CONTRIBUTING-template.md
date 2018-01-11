@@ -173,7 +173,7 @@ These sections are not necessary, but can help streamline the contributions you 
 
 ### Explain if you use any commit message conventions.
 
-**Need inspiration?** [1] [Angular](https://github.com/angular/material/blob/master/CONTRIBUTING.md#-git-commit-guidelines) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#step-3-commit)
+**Need inspiration?** [1] [Angular](https://github.com/angular/material/blob/master/.github/CONTRIBUTING.md#submit) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#step-3-commit)
 
 ### Explain if you use any labeling conventions for issues.
 
