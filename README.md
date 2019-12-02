@@ -15,7 +15,7 @@ To use this template, create CONTRIBUTING.md in the top level of your project, c
 
 When you’re done, make sure people see your shiny new contributing guide:
 * **Link back to your contributing guide in your Readme.** Create a section called “Contributing” and link to CONTRIBUTING.md: *“Thanks for your interest in contributing! There are many ways to contribute to this project. Get started here (link).”*
-* **If you have a website for your project,** add a section called “Contributing” and link to your contributing guide. Or copy-paste your guide into the website and link to them in your CONTRIBUTING.md file.
+* **If you have a website for your project,** add a section called “Contributing” and link to your contributing guide. Or copy-paste your guide into the website and link to them in your CONTRIBUTING.md file.  
 
 Finally, a couple of tips to help you write:
 * **A friendly, welcoming voice will go a long way in making people feel excited to contribute to your project.** Don’t forget to explain terms or concepts that might be confusing to a newcomer.
@@ -26,6 +26,9 @@ That’s it!
 
 # Contributing to this template
 This template reflects what I learned from reviewing the policies of many open source projects, not my experience as an open source maintainer. If you think something important is missing or should be different based on your experience, I'd love to hear it! (Keep in mind this is meant to be a first pass checklist, not a full-fledged guide in itself.) If you have suggestions for improving this template, open an issue on this project.
+
+# Translations  
+Spanish(español)
 
 # License & Attribution
 This template is available under the [Creative Commons CC0 1.0 License](https://creativecommons.org/publicdomain/zero/1.0/), meaning you are free to use it for any purpose, commercial or non-commercial, without any attribution back to me (public domain). If you use it in your project, I'd love to hear about it! (Find me here: [@nayafia](https://twitter.com/nayafia)) But you are in no way required to do so.
