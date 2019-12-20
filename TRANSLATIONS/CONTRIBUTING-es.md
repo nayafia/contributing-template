@@ -45,78 +45,78 @@ Esto incluye no solamente como se comunican con las/los demás (siendo respetoso
 # Tu primera contribución
 Ayuda a la gente que es nueva en el proyecto a que entiendan donde pueden ser de apoyo. Este es un buen momento también para dejarle saber a las personas si sigues alguna convención para etiquetar issues para principiantes.  
 
-> Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
-> Beginner issues - issues which should only require a few lines of code, and a test or two.
-> Help wanted issues - issues which should be a bit more involved than beginner issues.
-> Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+> Aun no sabes como empezar a contribuir con Atom? Puedes empezar revisando los issues con etiquetas principiante (beginner) y se-necesita-ayuda (help-wanted):
+> Beginner (principiante) - los issues con esta etiqueta deberían de requerir unicamente unas pocas lineas de código y uno o dos tests.   
+> Help wanted (se necesita ayuda) - Estos son issues que pueden ser un poco más complicados que los issues de principiantes.  
+> Ambas listas de issues están ordenadas por la cantidad de comentarios que tienen. Aunque no es perfecto, la cantidad de comentarios es un proxy rasonable para saber el impacto que tendrá el cambio.  
 
-[source: [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)] **Need more inspiration?** [1] [Read the Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development) [2] [Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps) (scroll down to "Guidelines" as well)
+[source: [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)] **Necesitas más inspiración?** [1] [Read the Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development) [2] [Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps) (baja en el scroll hasta "Guidelines" también)
 
-### Bonus points: Add a link to a resource for people who have never contributed to open source before.
-Here are a couple of friendly tutorials you can include: http://makeapullrequest.com/ and http://www.firsttimersonly.com/
+### Puntos de Bonus: Agrega un enlace a recursos para personas que nunca han contribuido anteriormente.  
+Aquí hay algunos tutoriales que puedes incluir: http://makeapullrequest.com/ y http://www.firsttimersonly.com/  
 
-> Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+> Trabajando en tu primer Pull Request? Puedes aprender como en esta *free* series, [Cómo contribuir a un proyecto de Código abierto en GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
-[source: [React](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#pull-requests)]  
+[fuente: [React](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#pull-requests)]  
 
-As a side note, it helps to use newcomer-friendly language throughout the rest of your document. Here are a couple of examples from [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
+Cómo nota, es bastante util usar lenguaje amigable con las personas recien llegadas en todo el documento. Aquí algunos ejemplos de [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
 
->At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
+>En este punto, ya estas preparada o preparado para hacer cambios! Sientete libre de pedir ayuda; todos fuimos principiantes una vez :smile_cat:
 >
->If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.
+>Si un maintainer te pide que hagas un "rebase" al PR, ellos se refieren a que muchisimo código a cambiado y que deberías actualizar la rama para que sea más facil unirla al resto del código.
 
-# Getting started
-### Give them a quick walkthrough of how to submit a contribution.
-How you write this is up to you, but some things you may want to include:
+# Empezando
+### Dales un rapido tour de como hacer submit a una contribución.
+Cómo escribes esto, depende de tí, pero algunas cosas que debería incluir son:
 
-* Let them know if they need to sign a CLA, agree to a DCO, or get any other legal stuff out of the way
-* If tests are required for contributions, let them know, and explain how to run the tests
-* If you use anything other than GitHub to manage issues (ex. JIRA or Trac), let them know which tools they’ll need to contribute
+* Dejales saber si necesitan firmar un CLA, estar de acuerdo con un DCO, o cualquier otra documentación legal que se necesite
+* Si los tests son necesarios para las contribuciones, hazles saber y explicales como ejecutar estos tests.  
+* Si estas usando algo distinto de GitHub para manejar tus issues (ej. JIRA or Trac), hazles saber que herramientas necesitan para contribuir  
 
->For something that is bigger than a one or two line fix:
+>Para cualquier cosa que sea mayor a una o dos lineas para corregir:  
 
->1. Create your own fork of the code
->2. Do the changes in your fork
->3. If you like the change and think the project could use it:
-    * Be sure you have followed the code style for the project.
-    * Sign the Contributor License Agreement, CLA, with the jQuery Foundation.
-    * Note the jQuery Foundation Code of Conduct.
-    * Send a pull request indicating that you have a CLA on file.
+>1. Crea tu propio fork del código
+>2. Haz los cambios en tu fork
+>3. Si te gusta el cambio y crees que el proyecto podría utilizarlo:  
+    * Asegurate de haber seguido el estilo de código del proyecto.  
+    * Firma el Contributor License Agreement, CLA, con la Fundación jQuery.
+    * Revisa el Código de conducta de la Fundación jQuery.
+    * Envia un pull request indicando que tienes un archivo con el CLA.
 
-[source: [Requirejs](http://requirejs.org/docs/contributing.html)] **Need more inspiration?** [1] [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md#1-where-do-i-go-from-here) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-contributions) [3] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#pull-requests)
+[fuente: [Requirejs](http://requirejs.org/docs/contributing.html)] **Necesitas más inspiración?** [1] [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md#1-where-do-i-go-from-here) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-contributions) [3] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#pull-requests)
 
-### If you have a different process for small or "obvious" fixes, let them know.
+### Si tienes un proceso diferente para correcciones pequeñas u "obvias", hazlo saber.  
 
-> Small contributions such as fixing spelling errors, where the content is small enough to not be considered intellectual property, can be submitted by a contributor as a patch, without a CLA.
+> Pequeñas contribuciones como errores de ortografía, donde el contenido es lo suficientemente pequeño como para no considerado propiedad intelectual, puede ser agregado como un patch de contribuidor, sin el CLA.  
 >
->As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:
->* Spelling / grammar fixes
->* Typo correction, white space and formatting changes
->* Comment clean up
->* Bug fixes that change default return values or error codes stored in constants
->* Adding logging messages or debugging output
->* Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.
->* Moving source files from one directory or package to another
+>Como regla de oro, los cambios pueden ser considerados "correcciones obvias" si estos no introducen una nueva funcionalidad o pensamiento creativo. Media vez el cambio no afecte la funcionalidad, algunos ejemplos incluyen los siguientes:  
+>* Correcciones de Ortografía / Gramática  
+>* Corrección de un error en la escritura de una palabra, espacios en blanco y cambios de formato  
+>* Limpieza de comentarios
+>* Corrección de Bugs que cambian los valores que se retornan o códigos de error guardados en constantes 
+>* Agregar mensajes de logueo o salidas de debugging
+>* Cambios a los archivos de ‘metadata’ como Gemfile, .gitignore, scripts de construcción, etc.
+>* Mover archivos con código de un directorio o paquete a otro  
 
-[source: [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#chef-obvious-fix-policy)] **Need more inspiration?** [1] [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#making-trivial-changes)
+[fuente: [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#chef-obvious-fix-policy)] **Necesitas más inspiración?** [1] [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#making-trivial-changes)
 
-# How to report a bug
-### Explain security disclosures first!
-At bare minimum, include this sentence:
-> If you find a security vulnerability, do NOT open an issue. Email XXXX instead.
+# Cómo reportar un bug
+### Explica primero cuales son las formas de revelación de fallos en seguridad primero!
+Como mínimo, incluye la siguiente oración:  
+> Si encuentras una vulnerabilidad de seguridad, NO abras un issue con la explicación. En vez de eso, envía un email a XXXX.
 
-If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
+Si no quieres usar tu información personal, establece una dirección como "seguridad@xxxxx". Proyectos más grandes suelen tener procesos más formales para comunicar cuestiones de seguridad, incluyendo comunicación encriptada. (Disclosure: No soy un experto en seguridad.)
 
-> Any security issues should be submitted directly to security@travis-ci.org
-> In order to determine whether you are dealing with a security issue, ask yourself these two questions:
-> * Can I access something that's not mine, or something I shouldn't have access to?
-> * Can I disable something for other people?
+> Cualquier issue de seguridad debe ser enviado directamente a security@travis-ci.org
+> Para poder determinar si estas tratando con un error de seguridad, hazte las siguientes preguntas:  
+> * Puedo accesar a algo que no es mío, o algo que no debería de tener acceso?  
+> * Puedo deshabilitar algo para otras personas?
 >
-> If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at security@travis-ci.org.
+> Si la respuesta a cualquiera de esas dos preguntas es "Si", entonces probablemente estas lideando con un problema de seguridad. Nota que aún cuando la respuesta es "no" a ambas preguntas, aún podrías estar lideando con un issue de seguridad, si no estas seguro, envianos un email a security@travis-ci.org.
 
-[source: [Travis CI](https://github.com/travis-ci/travis-ci/blob/master/CONTRIBUTING.md)] **Need more inspiration?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#security) [2] [Express.js](https://github.com/expressjs/express/blob/master/Security.md)
+[fuente: [Travis CI](https://github.com/travis-ci/travis-ci/blob/master/CONTRIBUTING.md)] **Necesitas más inspiración?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#security) [2] [Express.js](https://github.com/expressjs/express/blob/master/Security.md)
 
-### Tell your contributors how to file a bug report.
+### Dile a tus contribuidores como crear un reporte de bug.
 You can even include a template so people can just copy-paste (again, less work for you).
 
 > When filing an issue, make sure to answer these five questions:
