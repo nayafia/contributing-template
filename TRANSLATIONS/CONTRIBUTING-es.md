@@ -117,64 +117,64 @@ Si no quieres usar tu información personal, establece una dirección como "segu
 [fuente: [Travis CI](https://github.com/travis-ci/travis-ci/blob/master/CONTRIBUTING.md)] **Necesitas más inspiración?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#security) [2] [Express.js](https://github.com/expressjs/express/blob/master/Security.md)
 
 ### Dile a tus contribuidores como crear un reporte de bug.
-You can even include a template so people can just copy-paste (again, less work for you).
+También puedes incluir una plantilla para que las personas puedan hacer un copy-paste (de nuevo, menos trabajo para tí).
 
-> When filing an issue, make sure to answer these five questions:
+> Cuando llenas un issue, asegurate de responder estas cinco preguntas:
 >
-> 1. What version of Go are you using (go version)?
-> 2. What operating system and processor architecture are you using?
-> 3. What did you do?
-> 4. What did you expect to see?
-> 5. What did you see instead?
-> General questions should go to the golang-nuts mailing list instead of the issue tracker. The gophers there will answer or ask you to file an issue if you've tripped over a bug.
+> 1. Qué version de Go estas usando(go version)?
+> 2. Qué sistema operativo y que procesador estas usando?
+> 3. Qué hiciste?
+> 4. Qué esperabas ver?
+> 5. Qué viste en lugar de ello?
+> Preguntas generales deberían de ir la lista de correos de golang-nuts en vez del issue tracker. Las y los gophers que estén allí te indicarán si es necesario abrir un issue cuando encontraste un bug.
 
-[source: [Go](https://github.com/golang/go/blob/master/CONTRIBUTING.md#filing-issues)] **Need more inspiration?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#other-bugs ) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#reporting-bugs) (includes template)
+[fuente: [Go](https://github.com/golang/go/blob/master/CONTRIBUTING.md#filing-issues)] **Necesitas más inspiración?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#other-bugs ) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#reporting-bugs) (incluye plantilla)
 
-# How to suggest a feature or enhancement
-### If you have a particular roadmap, goals, or philosophy for development, share it here.
-This information will give contributors context before they make suggestions that may not align with the project’s needs.
+# Cómo sugerir una nueva característica
+### Si tienes un plan en particular, metas, o filosofía de desarrollo, compartela aquí.
+Esta información le dara a los contribuidores contexto antes de hacer sugerencias que puede no estén alineadas con lo que el proyecto necesita.
 
-> The Express philosophy is to provide small, robust tooling for HTTP servers, making it a great solution for single page applications, web sites, hybrids, or public HTTP APIs.
+> La filosofía Express se trata de proveer un pequeño pero robusto set de herramientas para servidores HTTP, haciendolo una gran solución para aplicaciones de una sola página, web sites, híbridos, APIs HTTP publicas.
 >
-> Express does not force you to use any specific ORM or template engine. With support for over 14 template engines via Consolidate.js, you can quickly craft your perfect framework.
+> Express no te forza a utilizar ningún ORM específico. Con soporte para al rededor de 14 motores de plantillas vía Consolidate.js, puedes facilmente crear un framework perfecto.
 
-[source: [Express](https://github.com/expressjs/express#philosophy)] **Need more inspiration?** [Active Admin](https://github.com/activeadmin/activeadmin#goals)
+[fuente: [Express](https://github.com/expressjs/express#philosophy)] **Necesitas más inspiración?** [Active Admin](https://github.com/activeadmin/activeadmin#goals)
 
-### Explain your desired process for suggesting a feature.
-If there is back-and-forth or signoff required, say so. Ask them to scope the feature, thinking through why it’s needed and how it might work.
+### Explica tu proceso deseado para sugerir una nueva característica.
+Si hay una ida y vuelta o cierre de sesion requerido, dilo. Pideles que escriban el alcance de la nueva caracteristica, con la idea de porque es necesaria y como podría funcionar.
 
-> If you find yourself wishing for a feature that doesn't exist in Elasticsearch, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that Elasticsearch has today have been added because our users saw the need. Open an issue on our issues list on GitHub which describes the feature you would like to see, why you need it, and how it should work.
+> Si te encuentras desdeando una característica que no existe en Elasticsearch, probablemente no estas solo. Puede ser que otras personas tengan necesidades similares. Muchas de las características que Elasticsearch tiene el día de hoy han sido agregadas gracias a que nuestros usuarios vieron la necesidad. Abre un issue en la lista de issues de GitHub que describa la característica que te gustaría ver, porqué la necesitas y como debería funcionar.
 
-[source: [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#feature-requests)] **Need more inspiration?** [1] [Hoodie](https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md#feature-requests) [2] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#requesting-a-feature)
+[fuente: [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#feature-requests)] **Necesitas más inspiración?** [1] [Hoodie](https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md#feature-requests) [2] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#requesting-a-feature)
 
-# Code review process
-### Explain how a contribution gets accepted after it’s been submitted.
-Who reviews it? Who needs to sign off before it’s accepted? When should a contributor expect to hear from you? How can contributors get commit access, if at all?
+# Proceso de Revisión del código
+### Explica que necesita una contribución para ser aceptada luego de que se hace el submit.
+Quién la revisa? Quien necesita firmar antes de que sea aceptada? Cuando debería esperar el contribuidor que le respondas? Cómo puede tener un contribuidor acceso a hacer commits, si fuese necesario?
 
-> The core team looks at Pull Requests on a regular basis in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates that are sent to the puppet-dev list. Notes are posted to the Puppet Community community-triage repo and include a link to a YouTube recording of the hangout.
-> After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
+> El core team revisa los Pull Requests semanalmente en una junta tripartita que se lleva a cabo en un Google Hangout público. El hangout se anuncia en las actualizaciones semanales y son enviados a la lista puppet-dev. Las notas son posteadas en el repo de Puppet Community community-triage e incluye un enlace a la grabacíon del hangout en YouTube.
+> Luego de que se da la retroalimentación se esperan respuestas en las siguientes dos semanas. Luego de ello puede que se cierre el pull request debido a la inactividad.
 
-[source: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Need more inspiration?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer)
+[fuente: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Necesitas más inspiración?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer)
 
-# Community
-If there are other channels you use besides GitHub to discuss contributions, mention them here. You can also list the author, maintainers, and/or contributors here, or set expectations for response time.
+# Comunidad
+Si existen otros canales a demás de Github para discutir las contribuciones, mencionalos aquí. También puedes listar las y los autores, mantenedores y/o contribuidores aquí, o establecer las expectativas de tiempo de respuesta.
 
-> You can chat with the core team on https://gitter.im/cucumber/cucumber. We try to have office hours on Fridays.
+> Puedes chatear con el core team en https://gitter.im/cucumber/cucumber. Tratamos de tener horas disponibles los viernes.
 
-[source: [cucumber-ruby](https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#talking-with-other-devs)] **Need more inspiration?**
+[fuente: [cucumber-ruby](https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#talking-with-other-devs)] **Necesitas más inspiración?**
  [1] [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#-developer-office-hours) [2] [Cookiecutter](https://github.com/audreyr/cookiecutter#community)
 
-# BONUS: Code, commit message and labeling conventions
-These sections are not necessary, but can help streamline the contributions you receive.
+# BONOS: Convenciones de código, mensajes de commit y etiquetado
+Estas secciones no son necesarias, pero pueden ayudar a orientar las contribuciones que recibes.
 
-### Explain your preferred style for code, if you have any.
+### Explica tu estilo preferido de código, si tienes alguno.
 
-**Need inspiration?** [1] [Requirejs](http://requirejs.org/docs/contributing.html#codestyle) [2] [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#contributing-to-the-elasticsearch-codebase)
+**Necesitas más inspiración?** [1] [Requirejs](http://requirejs.org/docs/contributing.html#codestyle) [2] [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#contributing-to-the-elasticsearch-codebase)
 
-### Explain if you use any commit message conventions.
+### Explica si tienes alguna convención de mensajes de commit.
 
-**Need inspiration?** [1] [Angular](https://github.com/angular/material/blob/master/.github/CONTRIBUTING.md#submit) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#step-3-commit)
+**Necesitas más inspiración?** [1] [Angular](https://github.com/angular/material/blob/master/.github/CONTRIBUTING.md#submit) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#step-3-commit)
 
-### Explain if you use any labeling conventions for issues.
+### Explica si usas alguna convención para el etiquetado de issues.
 
-**Need inspiration?** [1] [StandardIssueLabels](https://github.com/wagenet/StandardIssueLabels#standardissuelabels) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#issue-and-pull-request-labels)
+**Necesitas más inspiración?** [1] [StandardIssueLabels](https://github.com/wagenet/StandardIssueLabels#standardissuelabels) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#issue-and-pull-request-labels)
